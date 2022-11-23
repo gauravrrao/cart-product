@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import Main from "./components/Main";
+import "./App.css";
+import Frame from "./components/Frame";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     
+        <div className="App">
+          <Main
+            image={"./Screenshot from 2022-11-23 17-20-42.png"}
+            name="Relaxed Fit T-shity"
+            price="$12.99"
+          />
+          <Main
+            image={"./Screenshot from 2022-11-23 17-20-58.png"}
+            name="Nylon Sports Cap"
+            price="$14.99"
+          />
+          <Main
+            image={"./Screenshot from 2022-11-23 17-21-10.png"}
+            name="Sneakers"
+            price="$34.99"
+          />
+          <Main
+            image={"./Screenshot from 2022-11-23 17-34-36.png"}
+            name="Slim Fit Suit Vest"
+            price="$17.99"
+          />
+        </div>
+        <div className="container">
+          <Frame/>
+      </div>
+    </>
   );
 }
 

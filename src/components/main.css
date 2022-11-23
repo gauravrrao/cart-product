@@ -1,0 +1,71 @@
+.cart{
+    width: 44%;
+    display: flex;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 7.5rem;
+    margin-left: 8rem;
+}
+.image{
+    height: 8rem;
+    width: 6rem;
+    padding-right: 1rem;
+}
+.title{
+    
+    width: 35rem;
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    margin-top: -1.7rem;
+    display: flex;
+    color: gray;
+}
+.price > .p2{
+    margin-left: 0.5rem;
+    color: green;
+}
+.thing{
+    height: 4rem;
+}
+.xl{
+    
+    margin-left: 7rem;
+   margin-top: -2.5rem;
+   display: flex;
+   height: 1.5rem;
+   width: 5rem;
+   display: flex;
+   justify-content: space-between;
+}
+.arrow{
+    display: flex;
+    flex-direction: column;
+    height: 1rem;
+}
+.btn{
+    height: 2.4rem;
+   
+}
+.logo{
+    height: 3rem;
+    color: gray;
+    width: 1rem;
+
+}
+.imagelogo{
+    margin-top: 1rem;
+    display: flex;
+    margin-left: 13rem;
+    justify-content: center;
+    align-items: center;
+}
+.hr{
+    border: 1px solid black;
+    width: 46%;
+    background-color: black;
+    margin-left: 8rem;
+}
